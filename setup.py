@@ -9,7 +9,8 @@ setup(
   version = '0.1.2',
   license='MIT',
   description = 'A statistics and probability library for Python',
-  long_description = long_description
+  long_description = long_description,
+  long_description_content_type = "text/markdown",
   author = 'Miguel Angel Velez',
   author_email = '',
   url = 'https://github.com/mvelezg99/m_stats',

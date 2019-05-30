@@ -14,7 +14,7 @@ setuptools.setup(
   author = 'Miguel Angel Velez',
   author_email = '',
   url = 'https://github.com/mvelezg99/m_stats',
-  download_url = 'https://github.com/mvelezg99/m_stats/archive/0.1.2.tar.gz',
+  download_url = 'https://github.com/mvelezg99/m_stats/archive/0.1.3.tar.gz',
   keywords = ['Python', 'statistics', 'probability', 'm_stats'],
   install_requires=[
           'numpy',

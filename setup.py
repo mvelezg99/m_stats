@@ -1,13 +1,18 @@
 from distutils.core import setup
+
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
 setup(
   name = 'm_stats',
   packages = ['m_stats'],
-  version = '0.1.1',
+  version = '0.1.2',
   license='MIT',
   description = 'A statistics and probability library for Python',
+  long_description = long_description
   author = 'Miguel Angel Velez',
-  author_email = 'mvelezg99@gmail.com',
-  url = 'https://github.com/mvelezg99',
+  author_email = '',
+  url = 'https://github.com/mvelezg99/m_stats',
   download_url = 'https://github.com/mvelezg99/m_stats/archive/0.1.1.tar.gz',
   keywords = ['Python', 'statistics', 'probability', 'm_stats'],
   install_requires=[

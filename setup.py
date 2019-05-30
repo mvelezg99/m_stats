@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 setuptools.setup(
   name = 'm_stats',
   packages = ['m_stats'],
-  version = '0.1.3',
+  version = '0.1.4',
   license='MIT',
   description = 'A statistics and probability library for Python',
   long_description = long_description,
@@ -14,7 +14,7 @@ setuptools.setup(
   author = 'Miguel Angel Velez',
   author_email = '',
   url = 'https://github.com/mvelezg99/m_stats',
-  download_url = 'https://github.com/mvelezg99/m_stats/archive/0.1.3.tar.gz',
+  download_url = 'https://github.com/mvelezg99/m_stats/archive/0.1.4.tar.gz',
   keywords = ['Python', 'statistics', 'probability', 'm_stats'],
   install_requires=[
           'numpy',

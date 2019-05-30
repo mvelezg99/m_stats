@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: m-stats
+Version: 0.1.3
+Summary: A statistics and probability library for Python
+Home-page: https://github.com/mvelezg99/m_stats
+Author: Miguel Angel Velez
+Author-email: 
+License: MIT
+Download-URL: https://github.com/mvelezg99/m_stats/archive/0.1.3.tar.gz
+Description: ***
+        
+        To use and explore the library, you can install it with PyPi.
+        ```
+        $ pip install m_stats
+        ```
+        And then import it into your files.
+        ```python
+        import m_stats as ms
+        ```
+        And to use its functionalities, you should access to them in this way:
+        ```python
+        ms.linregr.regression(x, y)
+        ```
+        ***
+Keywords: Python,statistics,probability,m_stats
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown

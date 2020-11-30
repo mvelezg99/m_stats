@@ -1,13 +1,29 @@
 Metadata-Version: 2.1
 Name: m-stats
-Version: 0.1.3
+Version: 0.1.4
 Summary: A statistics and probability library for Python
 Home-page: https://github.com/mvelezg99/m_stats
 Author: Miguel Angel Velez
 Author-email: 
 License: MIT
-Download-URL: https://github.com/mvelezg99/m_stats/archive/0.1.3.tar.gz
-Description: ***
+Download-URL: https://github.com/mvelezg99/m_stats/archive/0.1.4.tar.gz
+Description: # m_stats
+        ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/m_stats.svg) ![PyPI - License](https://img.shields.io/pypi/l/m_stats.svg)  ![PyPI](https://img.shields.io/pypi/v/m_stats.svg) ![GitHub last commit](https://img.shields.io/github/last-commit/mvelezg99/m_stats.svg)
+        ***
+        A statistics and probability library for Python; which includes functions to make operations of:
+        * Probability distributions
+        * Confidence intervals estimation
+        * Hypothesis testing
+        * ANOVA (Analysis of variance)
+        * Simple linear regression
+        * Multiple regression
+        * Time series
+        
+        And also includes functions to:
+        * Graph distributions
+        * Graph hypothesis tests
+        * Graph linear regressions
+        ***
         
         To use and explore the library, you can install it with PyPi.
         ```
@@ -22,6 +38,8 @@ Description: ***
         ms.linregr.regression(x, y)
         ```
         ***
+        
+        
 Keywords: Python,statistics,probability,m_stats
 Platform: UNKNOWN
 Classifier: Development Status :: 3 - Alpha
